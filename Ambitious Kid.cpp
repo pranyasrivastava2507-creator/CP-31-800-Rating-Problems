@@ -1,6 +1,5 @@
 #include <bits/stdc++.h>
 using namespace std;
-
 int main(){
     int N;
     cin>>N;
@@ -11,6 +10,5 @@ int main(){
         cin>>A[i];
         mini=min(mini,abs(A[i]));
     }
-    
     cout<<mini;
 }
